@@ -1,0 +1,213 @@
+body{
+
+    background-color: rgb(254, 238, 11);
+
+}
+
+.Padre{
+
+    background-color: rgb(254, 238, 11);
+
+    width: 60%;
+
+    padding: 20px;
+
+    display: grid;
+
+    grid-gap: 5px;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 1fr 4fr 1fr;
+
+}
+
+.c1{
+
+    background-color: rgb(255, 0, 0);
+
+    grid-column: 1/3;
+
+    grid-row: 1/2;
+
+    color: white;
+
+    font-size: 35px;
+
+    padding: 20px;
+
+}
+
+.c2{
+
+    background-color: rgb(255, 0, 0);
+
+    grid-column: 1/2;
+
+    grid-row: 2/3;
+
+    padding: 20px;
+
+}
+
+.c3{
+
+    background-color: rgb(255, 0, 0);
+
+    grid-column: 2/3;
+
+    grid-row: 2/3;
+
+    padding: 30px;
+
+    display: grid;
+
+    grid-gap: 10px;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 1fr 2fr;
+
+}
+
+.c6{
+
+    background-color: rgb(255, 0, 0);
+
+    grid-column: 1/3;
+
+    grid-row: 3/4;
+
+    color: white;
+
+    font-size: 20px;
+
+    padding: 20px;
+
+}
+
+.cara{
+
+    background-color: rgb(80, 190, 20);
+
+    height: 100%;
+
+}
+
+.c31{
+
+    background-color: rgb(80, 190, 20);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.c32{
+
+    background-color: rgb(80, 190, 20);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.c33{
+
+    grid-column: 1/3;
+
+    grid-row: 2/3;
+
+    background-color: rgb(80, 190, 20);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 25px;
+
+    height: 190px;
+
+}
+
+.circulos{
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: flex-start;
+
+    padding: 20px;
+
+}
+
+.circulo{
+
+    width: 70px;
+
+    height: 100px;
+
+    background-color: blue;
+
+    border-radius: 50%;
+
+}
+
+.ovalo{
+
+    width: 200px;
+
+    height: 75px;
+
+    background-color: blue;
+
+    border-radius: 50%;
+
+    margin: 40px auto 0 auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.cuadritos{
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 20px);
+
+    grid-template-rows: repeat(2, 20px);
+
+    gap: 3px;
+
+}
+
+.cuadritos div{
+
+    background-color: rgb(255, 255, 254);
+
+}
+
+.circuloPequeno{
+
+    width: 55px;
+
+    height: 75px;
+
+    background-color: blue;
+
+    border-radius: 50%;
+
+}
